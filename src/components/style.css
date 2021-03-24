@@ -1,0 +1,39 @@
+.card{
+    overflow: hidden;
+    background-color:#9980FA;
+}
+.card:hover img{
+    transform: scale(1.1);
+    /* overflow: hidden; */
+}
+
+
+h1{
+    color: violet;
+    font-size: 40px;
+    font-family: Jokerman;
+    
+    
+}
+
+.button {
+    background-color: #9b59b6;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 300px;
+  }
+  footer{
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+.container1{
+    background-color: dimgray;
+}
