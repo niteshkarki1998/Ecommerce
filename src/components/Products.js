@@ -5,7 +5,7 @@ function Products() {
     return (
         <>
             <div className="container-fluid">
-                <div className="row row-cols-1 row-cols-md-4 g-4 mt-5 mb-3 p-3">
+                <div className="row row-cols-1 row-cols-md-4 g-4 mt-3 mb-3 p-3">
                     <div className="col">
                         <div className="card shadow-lg">
                             <img src="images/A1.jpg" className="card-img-top" alt="..." style={{ height: '300px' }} />

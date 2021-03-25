@@ -2,14 +2,38 @@ import React from 'react'
 import Slider from "react-slick";
 
 const Trending = () => {
+
+    function SampleNextArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, background: "Purple",borderRadius:'80%' }}
+            onClick={onClick}
+          />
+        );
+      }
+      
+      function SamplePrevArrow(props) {
+        const { className, style, onClick } = props;
+        return (
+          <div
+            className={className}
+            style={{ ...style, background: "Purple",borderRadius:'80%'}}
+            onClick={onClick}
+          />
+        );
+      }
     const settings = {
         dots: false,
         infinite: true,
         autoplay:true,
         speed: 900,
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
+        nextArrow: <SampleNextArrow />,
+      prevArrow: <SamplePrevArrow />,
         
         responsive: [
             {
@@ -45,6 +69,7 @@ const Trending = () => {
                     <Slider {...settings}>
                         <div>
                             <img src="images/A1.jpg" className="img-fluid" alt="" style={{ height: '200px' }} />
+                            
                         </div>
                         <div>
                             <img src="images/A2.jfif" className="img-fluid" alt="" style={{ height: '200px' }} />
@@ -67,6 +92,22 @@ const Trending = () => {
                         <div>
                             <img src="images/A8.jpg" className="img-fluid" alt="" style={{ height: '200px' }} />
                         </div>
+                        <div>
+                            <img src="images/A8.jpg" className="img-fluid" alt="" style={{ height: '200px' }} />
+                        </div>
+                        <div>
+                            <img src="images/A9.jfif" className="img-fluid" alt="" style={{ height: '200px' }} />
+                        </div>
+                        <div>
+                            <img src="images/A10.jfif" className="img-fluid" alt="" style={{ height: '200px' }} />
+                        </div>
+                        <div>
+                            <img src="images/A11.jfif" className="img-fluid" alt="" style={{ height: '200px' }} />
+                        </div>
+                        <div>
+                            <img src="images/A12.jfif" className="img-fluid" alt="" style={{ height: '200px' }} />
+                        </div>
+
                     </Slider>
                 </div>
             </div>
