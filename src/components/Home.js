@@ -3,6 +3,8 @@ import Carousel from './Carousel'
 import Footer from './Footer'
 import NavBar from './NavBar'
 import Products from './Products'
+import './style.css'
+import Trending from './Trending'
 
 function Home() {
     return (
@@ -10,6 +12,7 @@ function Home() {
             <NavBar />
             <Carousel />
             <Products />
+            <Trending/>
             <Footer />
         </>
     )

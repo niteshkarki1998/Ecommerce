@@ -1,6 +1,6 @@
 .card{
     overflow: hidden;
-    background-color:#9980FA;
+    background-color:whitesmoke;
 }
 .card:hover img{
     transform: scale(1.1);
@@ -17,7 +17,7 @@ h1{
 }
 
 .button {
-    background-color: #9b59b6;
+    background-color: #663399;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -34,6 +34,4 @@ h1{
     width: 100%;
     text-align: center;
   }
-.container1{
-    background-color: dimgray;
-}
+

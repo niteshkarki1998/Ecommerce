@@ -21,7 +21,7 @@ function NavBar() {
             <ul className="d-flex p-3">
               <li className="list-unstyled"><Link className="text-decoration-none p-3" style={{ fontSize: '20px', color: 'white' }} to="/Signup"><i class="bi bi-person-plus-fill" style={{ color: 'orange', fontSize: '20px' }}></i>&nbsp;Signup</Link></li>
               <li className="list-unstyled"><Link className="text-decoration-none p-3" style={{ fontSize: '20px', color: 'white' }} to="/Signin"><i class="bi bi-box-arrow-in-right" style={{ color: 'orange', fontSize: '20px' }}></i>&nbsp;Signin</Link></li>
-              <li className="list-unstyled"><Link className="text-decoration-none p-3"><i class="bi bi-cart-check-fill" style={{ color: 'orange', fontSize: '25px' }}></i>&nbsp;<sup style={{ backgroundColor: 'blue', borderRadius: '50%', padding: '3px', color: 'white', fontSize: '20px' }}>100</sup></Link></li>
+              <li className="list-unstyled"><Link className="text-decoration-none p-3"><i class="bi bi-cart-check-fill" style={{ color: 'orange', fontSize: '25px' }}></i>&nbsp;<sup style={{ backgroundColor: 'green', borderRadius: '50%', padding: '3px', color: 'white', fontSize: '20px' ,textAlign:'center'}}>100</sup></Link></li>
 
 
             </ul>
