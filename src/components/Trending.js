@@ -6,35 +6,35 @@ const Trending = () => {
     function SampleNextArrow(props) {
         const { className, style, onClick } = props;
         return (
-          <div
-            className={className}
-            style={{ ...style, background: "Purple",borderRadius:'80%' }}
-            onClick={onClick}
-          />
+            <div
+                className={className}
+                style={{ ...style, background: "blue", borderRadius: '80%' }}
+                onClick={onClick}
+            />
         );
-      }
-      
-      function SamplePrevArrow(props) {
+    }
+
+    function SamplePrevArrow(props) {
         const { className, style, onClick } = props;
         return (
-          <div
-            className={className}
-            style={{ ...style, background: "Purple",borderRadius:'80%'}}
-            onClick={onClick}
-          />
+            <div
+                className={className}
+                style={{ ...style, background: "blue", borderRadius: '80%',fontSize:'20px' }}
+                onClick={onClick}
+            />
         );
-      }
+    }
     const settings = {
         dots: false,
         infinite: true,
-        autoplay:true,
+        autoplay: true,
         speed: 900,
         slidesToShow: 4,
         slidesToScroll: 4,
         initialSlide: 0,
         nextArrow: <SampleNextArrow />,
-      prevArrow: <SamplePrevArrow />,
-        
+        prevArrow: <SamplePrevArrow />,
+
         responsive: [
             {
                 breakpoint: 1024,
@@ -69,7 +69,7 @@ const Trending = () => {
                     <Slider {...settings}>
                         <div>
                             <img src="images/A1.jpg" className="img-fluid" alt="" style={{ height: '200px' }} />
-                            
+
                         </div>
                         <div>
                             <img src="images/A2.jfif" className="img-fluid" alt="" style={{ height: '200px' }} />
