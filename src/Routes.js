@@ -5,6 +5,7 @@ import Offer from './components/Offer';
 import Signup from './components/User/Signup';
 import Signin from './components/User/Signin';
 import Deals from'./components/Deals';
+import Contact from './components/Contact';
 const Routes=()=> {
     return (
         <Router>
@@ -14,6 +15,7 @@ const Routes=()=> {
                 <Route exact path="/Signup" component={Signup}/>
                 <Route exact path="/Signin" component={Signin}/>
                 <Route exact path="/deals" component={Deals}/>
+                <Route exact path="/contact" component={Contact}/>
             </Switch>
         </Router>
     )
